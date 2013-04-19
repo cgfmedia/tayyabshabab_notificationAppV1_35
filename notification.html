@@ -161,7 +161,7 @@
             function onNotificationGCM(e) {
                 
 
-                $("#app-status-ul").html('<li>' + $.stringify(e) + '</li>');
+                $("#app-status-ul").html('<li>' + JSON.stringify(e)   + '</li>');
 
                 switch (e.event)
 
